@@ -1,0 +1,13 @@
+:root {
+  --dark: rgb(0, 25, 54);
+}
+
+.container {
+  color: rgb(210, 210, 210);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: center;
+  transition: background-color 0.2s;
+}

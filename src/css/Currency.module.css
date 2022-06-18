@@ -1,0 +1,38 @@
+.boxbody {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0.8rem 1rem;
+}
+
+.container {
+  margin: 1rem;
+  border-radius: 0.4rem;
+  width: calc(22rem - 4rem);
+  height: 8rem;
+  background-color: var(--dark);
+  padding: 0.8rem;
+  box-shadow: 1px 1px 20px var(--dark);
+}
+
+.imgcontainer {
+  display: flex;
+  align-items: center;
+}
+
+.changeState {
+  font-size: 0.9rem;
+}
+
+.priceContainer {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 0.5rem;
+  font-size: 0.9rem;
+}
+
+.price {
+  font-weight: 600;
+  font-size: 1rem;
+  margin-left: 1rem;
+}
